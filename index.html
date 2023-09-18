@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.5/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
+    <!-- navbar -->
+    <div class="navbar  bg-base-100 lg:w-11/12 mx-auto">
+        <div class="flex-1">
+            <a class="btn btn-ghost normal-case text-3xl font-bold">G3 Architects</a>
+        </div>
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact Us</a></li>
+                <li><a>Login</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- text  -->
+    <div class="text-center pt-10 ">
+        <h2 class="font-bold text-3xl p-4">Brand New <br>
+            Group of Architects </h2>
+        <p class="text-sm p-2">There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in <br>
+            some form, by injected humour, or randomised words which don't look even</p>
+        <button class="btn btn-active bg-orange-500 p-2 rounded-lg text-white">Explore More</button>
+    </div>
+
+    <!-- photo -->
+    <div class=" w-10/12 mx-auto bg-base-100 p-5 ">
+        <figure><img class="rounded-lg w-11/12 mx-auto" src="./images/banner.png" alt="Shoes" /></figure>
+
+
+
+    </div>
+
+
+
+
+    <!-- grid feature section -->
+    <div class="w-[1200px] mx-auto pt-5 pb-6">
+        <div class="flex ">
+            <div class=" grid grid-cols-2 gap-2">
+              <img src="./images/team1.png" class="  rounded-lg " />
+              <img src="./images/team2.png" class=" rounded-lg " />
+              <img src="./images/team3.png" class=" rounded-lg " />
+              <img src="./images/team4.png" class=" rounded-lg " />
+              </div>
     
+              <div class="pt-28 pl-5">
+                <h1 class="text-5xl font-bold">Quick list of Our Features</h1>
+                <p class="text-start">There are many variations of passages of Lorem Ipsum available,<br>
+                     but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+           
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+      <!-- <footer></footer> -->
+      <footer class="footer footer-center p-4 bg-[#FFF4E7] text-base-content">
+        <aside>
+          <p>All rights reserved copyright@2023 startup landing page design</p>
+        </aside>
+      </footer>
 </body>
+
 </html>
